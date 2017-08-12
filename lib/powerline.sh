@@ -124,7 +124,6 @@ __print_right_segment() {
 	local separator=$4
 	local separator_background_color=$5
 	local separator_foreground_color=$6
-
 	__print_colored_content "$separator" "$separator_background_color" "$separator_foreground_color"
 	__print_colored_content "$content" "$content_background_color" "$content_foreground_color"
 }
